@@ -1,0 +1,170 @@
+body {
+  font-family: "Bebas Neue", sans-serif;
+}
+button {
+  font-family: 'Bebas Neue', sans-serif;
+}
+.container-fluid{
+    background-color: #013D93;
+    height: 75px;
+    
+}
+.imagenuno{
+    border-radius: 25px;
+}
+.Emprestitulo{
+    font-size: medium;
+    position: relative;
+    left: 65px;
+    margin-top: -70px;
+    color: aliceblue;
+}
+
+.btn-planes{
+     background: none;
+     color: aliceblue;
+     border: none;
+     font-size: x-large;
+     text-shadow: 1px 1px 2px black;
+}
+.btn-contactos{
+    border: none;
+    background: none;
+    color: aliceblue;
+    font-size: x-large;
+    text-shadow: 1px 1px 2px black;
+}
+.btn-servicios{
+    border: none;
+    background: none;
+    color: aliceblue;
+    font-size: x-large;
+    text-shadow: 1px 1px 2px black;
+}
+.btn{
+    margin-top: -60px;
+    text-align: center;
+}
+.btn-sobrenosotros{
+    border: none;
+    background: none;
+    font-size: x-large;
+        color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+}
+.cuadro{
+    
+    width: auto;
+    height: auto;
+    
+}
+.cuardrouno{
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 300px;
+    height: 580px;
+    border-radius: 15px;
+}
+.cuadrodos{
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 15px;
+    height: 580px;
+}
+.cuadrotres{
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 300px;
+    height: 580px;
+    border-radius: 15px;
+}
+.titulo{
+    text-align: center;
+    font-size: larger;
+}
+.cuadros{
+    display: flex;
+    
+    justify-content: center;
+    gap: 15px;
+}
+.cuadritouno{
+    width: 300px;
+    height: 90px;
+    background-color: brown;
+    border-radius: 15px;
+    padding: 1px;
+}
+.cuadritodos{
+    width: 300px;
+    height: 90px;
+    background-color: chocolate;
+    border-radius: 15px; 
+    padding: 1px;
+}
+.tituxdxd{
+    position: relative;
+    margin: -10px;
+    font-size: x-large;
+}
+.parxd{
+    position: relative;
+    margin: -90px;
+}
+.cuadritotres{
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    padding: 1px;
+}
+.titulox {
+   position: relative;
+   justify-content: end;
+   margin: -20px;
+   font-size: x-large;
+}
+.parafoxd{
+    justify-content: end;
+    position: relative;
+    margin: -90px;
+}
+
+.oly{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: #D2691E;
+    font-size: medium;
+    position: relative;
+    margin: -10px;
+}
+.pppp{
+     width: 200px;
+     height: 40px;
+     background-color: #D2691E;
+     border-radius: 15px;
+     font-size: medium;
+     color: aliceblue;
+    margin: -10px;
+}
+.tituxx{
+    position: relative;
+    margin: -10px;
+    font-size: x-large;
+}
+.ppar{
+    position: relative;
+    margin: -90px;
+}
+.ttex{
+    border-radius: 15px;
+    background-color: #D2691E;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    margin: -10px;
+    font-size: medium;
+}
