@@ -1,157 +1,72 @@
 body{
     font-family: "Bebas Neue", sans-serif;
 }
-.tituloo{
-    font-size: x-large;
+.titu{
+    font-size: 200px;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    margin-top: -900px;
+    text-shadow: 1px 1px 2px black;
 }
-.btn-1{
-    border:  none;
-    background: none;
+.logo{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
 }
-.btn-2{
-    border: none;
-    background: none;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.btn-3{
-    border: none;
-    background: none;
-}
-.btn-4{
-    border: none;
-    background: none;
-}
-.ubicacion{
-    margin-left: 800px;
-    margin-top: -700px;
-}
-
-.ubicaciondos{
-    margin-left: 800px;
-    margin-top: 100px;
-}
-.titulodos{
-    margin-left: 370px;
-    font-size: x-large;
-    margin-top: -120px;
-}
-.name{
-    margin-left: 420px;
-}
-.colocarnombre{
-    margin-left: 420px;
-    background: none;
-    border: none;
-}
-.Email{
-    margin-left: 420px;
-}
-.sintitulo{
-    
-    background: none;
-    
-}
-.container-fluid{
+.header{
     background-color: #013D93;
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 5px 10%;
 }
-.Emprestitulo{
-    font-size: medium;
-    margin-left: 93px;
-    margin-top: -80px;
-    color: aliceblue;
+.header .logo{
+    cursor: pointer;
 }
-.btn-planes{
-     background: none;
-     color: aliceblue;
-     border: none;
-     font-size: medium;
-     text-shadow: 1px 1px 2px black;
-}
-.btn-contactos{
-    border: none;
-    background: none;
-    color: aliceblue;
-    font-size: medium;
-    text-shadow: 1px 1px 2px black;
-}
-.btn-servicios{
-    border: none;
-    background: none;
-    color: aliceblue;
-    font-size: medium;
-    text-shadow: 1px 1px 2px black;
-}
-.btn{
-    margin-top: -60px;
-    margin-left: 450px;
-}
-.btn-sobrenosotros{
-    color: aliceblue;
-    text-shadow: 1px 1px 2px black;
-    border: none;
-    background: none;
-    font-size: medium;
-}
-.imagenuno{
-    margin: 10px;
+.header .logo img{
+    height: 50px;
     border-radius: 25px;
-    margin-left: 30px;
+    width: auto;
+    transition: all 0.03s;
 }
-.xdd{
-    margin-left: 420px;
+.header .logo img:hover{
+    transform: scale(1.2);
 }
-.introduzir{
-    margin-left: 150px;
+.header .nav-links{
+    list-style: none;
 }
-.correoinput{
-    
-    background: none;
-
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
 }
-.ponercorreo{
-    margin-left: 420px;
+.header .nav-links li:hover{
+    transform: scale(1.1);
 }
-.numerotelefono{
-    margin-left: 420px;
-}
-.numeroxds{
-    margin-left: 420px;
-}
-.numeroxd{
-  
-    background: none
-}
-
-.introduzir{
-    width: 300px;
-    height: 200px;
-    resize: none;
-    background: none;
-    outline: none;
-    vertical-align: top;
-    margin-left: 420px;
-}
-.check{
-    margin-left: 420px;
-    margin-top: 10px;
-}
-.condiciones{
-    margin-left: 440px;
-    margin-top: -40px;
-}
-.btn-5{
-    width: 200px;
-    height: 40px;
-    background-color: #D2691E;
+.header .nav-links a{
+    text-decoration: none;
     color: aliceblue;
+    font-size: 700;
+}
+.header .nav-links li a:hover{
+    color: aquamarine;
+}
+.header .btnxxd button{
+    color: black;
     border: none;
-    font-family: "Bebas Neue", sans-serif;
-    margin-left: 420px;
+    background: aliceblue;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
 }
-.parrafin{
-    margin-top: -590px;
-    font-size: x-large;
-}
-.parafindos{
-    font-size: medium;
+.header .btnxxd button:hover{
+    background-color: aliceblue;
+    color: orange;
+    transform: scale(1.1);
 }
